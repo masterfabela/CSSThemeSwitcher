@@ -11,13 +11,11 @@ if (theme) {
 }
 
 darkButton.onclick = () =>{
-    console.log('dark pulsado');
     body.classList.replace('light', 'dark');
     localStorage.setItem('theme','dark');
 };
 
 lightButton.onclick = () => {
-    console.log('white pulsado');
     body.classList.replace('dark', 'light');
     localStorage.setItem('theme', 'light');
 };
